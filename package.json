@@ -1,0 +1,57 @@
+{
+  "name": "spot-tops-server",
+  "version": "0.1.0",
+  "description": "A web app for visualizing personalized Spotify data.",
+  "main": "index.js",
+  "engines": {
+    "node": "10.24.1"
+  },
+  "scripts": {
+    "server": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "cookie-parser": "1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "~4.17.1",
+    "querystring": "~0.2.0",
+    "request": "~2.88.0"
+  },
+  "devDependencies": {
+    "@danydodson/eslint-config-react": "^2.4.0",
+    "@danydodson/prettier-config": "^1.6.0",
+    "concurrently": "^5.1.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.1.1",
+    "prettier": "^2.0.2"
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write"
+    ],
+    "*.{js}": [
+      "eslint --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "author": "Dany Dodson <danydodson@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danydodson/spot-tops.git"
+  },
+  "homepage": "https://github.com/danydodson/spot-tops#readme",
+  "bugs": {
+    "url": "https://github.com/danydodson/spot-tops/issues"
+  },
+  "keywords": [ ]
+}
