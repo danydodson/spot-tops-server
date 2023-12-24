@@ -11,9 +11,9 @@ primary_region = "ord"
   # image = "danydodson/spot-tops-server:latest"
 
 [env]
-  REDIRECT_URI = "http://localhost:8888/callback"
-  FRONTEND_URI = "http://localhost:8888"
-  LOGIN_URI = "http://localhost:8888/login"
+  REDIRECT_URI = "https://spot-tops-client.netlify.app/callback"
+  FRONTEND_URI = "https://spot-tops-client.netlify.app"
+  LOGIN_URI = "https://spot-tops-client.netlify.app/login"
 
 [http_service]
   internal_port = 8888
