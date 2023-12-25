@@ -7,7 +7,7 @@ let FRONTEND_URI = process.env.FRONTEND_URI
 const PORT = process.env.PORT || 8888
 
 if (process.env.NODE_ENV !== 'production') {
-  REDIRECT_URI = 'https://spot-tops.com/callback'
+  REDIRECT_URI = 'https://spot-tops-server.fly.dev/callback'
   FRONTEND_URI = 'https://spot-tops.com'
   // REDIRECT_URI = 'http://localhost:8888/callback'
   // FRONTEND_URI = 'http://localhost:3000'
