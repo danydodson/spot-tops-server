@@ -1,8 +1,3 @@
-# fly.toml app configuration file generated for spot-tops-server on 2023-12-24T15:52:51-06:00
-#
-# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
-#
-
 app = "spot-tops-server"
 primary_region = "ord"
 
@@ -11,9 +6,9 @@ primary_region = "ord"
   # image = "danydodson/spot-tops-server:latest"
 
 [env]
-  REDIRECT_URI = "https://spot-tops-client.netlify.app/callback"
-  FRONTEND_URI = "https://spot-tops-client.netlify.app"
-  LOGIN_URI = "https://spot-tops-client.netlify.app/login"
+  REDIRECT_URI = "https://spot-tops.com/callback"
+  FRONTEND_URI = "https://spot-tops.com"
+  LOGIN_URI = "https://spot-tops.com/login"
 
 [http_service]
   internal_port = 8888

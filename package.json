@@ -47,11 +47,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danydodson/spot-tops.git"
+    "url": "https://github.com/danydodson/spot-tops-server.git"
   },
-  "homepage": "https://github.com/danydodson/spot-tops#readme",
-  "bugs": {
-    "url": "https://github.com/danydodson/spot-tops/issues"
-  },
-  "keywords": [ ]
+  "homepage": "https://github.com/danydodson/spot-tops-server#readme",
+  "keywords": [
+    "spotify",
+    "netlify",
+    "fly.io"
+  ]
 }
